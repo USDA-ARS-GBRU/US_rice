@@ -16,4 +16,4 @@ Shell commands used to define coverage around pre-ascertained indel positions.  
 
 ## populationClustering.R
 
-R program that takes a genetic relatedness matrix (in this case centered-IBS), clusters varieties based on the hypothesis that there two emergent subpopulations, and compiles the results in a sliding window of 25 varieties through time.
+R program that takes a genetic relatedness matrix (in this case centered-IBS), clusters varieties/strains based on the hypothesis of speciation (or population divergence), and compiles the results in a sliding window of 25 varieties/strains through time.
