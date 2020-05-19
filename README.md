@@ -18,3 +18,7 @@ Shell commands used to define coverage around pre-ascertained indel positions.  
 
 R program that takes a genetic relatedness matrix (in this case centered-IBS), clusters varieties/strains based on the hypothesis of speciation (or population divergence), and compiles the results in a sliding window of 25 varieties/strains through time.
 
+## majorityRuleConsensus.R
+
+Perl program to calculate the majority rule consensus from a clustalw alignment (although other alignment formats are easily imported via bioperl).  The approach is different than others in that it accounts for gap consensus and compression as well. The script takes a list of alignments to process and the alignement directory as input and creates a fasta file for every alignment in the specified output directory.  
+
